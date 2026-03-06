@@ -1,0 +1,84 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Archivos de configuración local
+.env
+.env.local
+.env*.local
+
+# Dependencias
+uv.lock
+
+# Base de datos
+*.db
+*.sqlite
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+.htmlcov/
+.coverage
+*.cover
+
+# Python specific
+instance/
+.webassets-cache
+
+# Build output
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Installation artifacts
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Test environment
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+*.app
+*.pkg
+*.dmg
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
